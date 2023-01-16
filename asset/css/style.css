@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'iceland';
+    src: url('../font-family/Iceland-Regular.ttf');
+}
+
+/* Compétences */
+#wheelP {
+    grid-row: 1;
+    grid-column: 2;
+    font-family: 'iceland', 'Arial Narrow Bold', sans-serif;
+    font-size: 5vh;
+    color: beige;
+}
+
+#rotaDiv {
+    color: aliceblue;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+}
+
+.apparition {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari et Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.disableIcone {
+    animation: fadeout 0.5s;
+    -moz-animation: fadeout 0.5s;
+    /* Firefox */
+    -webkit-animation: fadeout 0.5s;
+    /* Safari et Chrome */
+    -o-animation: fadeout 0.5s;
+    /* Opera */
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.bgColorImage {
+    background-color: #c7c7c77b;
+}
+
+#rotaDiv {
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 30% 40% 30%;
+}
+
+#divimgBtnPrincipal {
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+#divimgBtnPrincipal>img {
+    height: 30%;
+}
+
+.imgOne {
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 3.5s ease-in-out;
+}
+
+.imgTwoRotate {
+    transform: rotate(360deg);
+}
+
+.imgOneRotate {
+    transform: rotate(-360deg);
+}
+
+/* barre nav */
+.nav-item {
+    border-bottom: 1px #39FFF3 solid;
+    border-top: 1px #39FFF3 solid;
+}
+
+h2 {
+    font-family: 'iceland', 'Arial Narrow Bold', sans-serif;
+    color: #39FFF3;
+}
+
+#barreNav {
+    background: rgba(0, 0, 0, 0.926);
+}
+
+#barreNav>li>a {
+    font-family: 'iceland', 'Arial Narrow Bold', sans-serif;
+    font-size: 4vh;
+    color: #39FFF3;
+}
+
+#colorAqua2 {
+    color: #39FFF3;
+}
+
+h1 {
+    font-family: 'iceland', 'Arial Narrow Bold', sans-serif;
+    color: #f9f9f9;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 10vh;
+}
+
+#headerImg {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.646), rgba(0, 0, 0, 0.402)), url(../images/space-station-7117855.jpg), no-repeat;
+    background-position: center;
+    height: 333px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#headerImg>p {
+    color: aliceblue;
+    font-size: 2em;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+
+}
+
+main {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.916), rgba(0, 0, 0, 0.737)), url('../images/bgetoile.jpg');
+
+}
+
+#pdp {
+    filter: drop-shadow(0 0 0.75rem rgba(87, 255, 247, 0.525));
+    width: 45%;
+}
+
+.defautTextSize {
+    font-size: 2.5vh;
+}
+
+/*Contenue*/
+
+.blackOpaque {
+    font-size: 3vh;
+}
+
+.sectionAll {
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* experience */
+.imgSize2 {
+    width: 6.6vh;
+}
+
+#para3>img {
+    height: 30em;
+}
+
+#para3>p {
+    color: aliceblue;
+}
+
+#para3>p>a>img {
+    height: 4vh;
+}
+
+#CV>div>img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#article1 {
+
+    color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+/* Textes apparition */
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+section .container {
+    margin: 5%;
+}
+
+/*pour pas que ça decal lors de l'apparition*/
+
+#number3 {
+    padding-bottom: 5%;
+
+}
+
+.titreStyle {
+    width: 20%;
+    padding-bottom: 5%;
+
+}
+
+
+.sautLigne {
+    padding-top: 2%;
+}
+
+.blockFlex {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#para2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#block1 {
+    padding-right: 5%;
+}
+
+#CV {
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+#para4 {
+    text-decoration-style: none;
+    color: aliceblue;
+    padding-bottom: 5%;
+}
+
+.textStyle {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* MEDIA QUERRIES */
+@media all and (max-width:500px) {
+    #CV>div>img {
+        height: 25vh;
+        width: 50vw;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 10vh;
+    }
+
+    #headerImg>p {
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    #barreNav>li>a {
+        font-size: 3vh;
+    }
+
+    #headerImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #article1,
+    #para2,
+    #para3,
+    #para4 {
+        color: aliceblue;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #barreNav {
+        display: flex;
+        flex-direction: row;
+        font-size: 75%;
+
+    }
+
+    .titreStyle {
+        width: 50vw;
+        padding-bottom: 5%;
+
+    }
+
+    #para2 {
+        display: flex;
+    }
+
+    #para3>img {
+        height: vh;
+    }
+
+    #divimgBtnPrincipal>img {
+        height: 20%;
+    }
+}
+
