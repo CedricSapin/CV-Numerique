@@ -49,15 +49,7 @@
     /* Opera */
 }
 
-@keyframes fadeout {
-    from {
-        opacity: 1;
-    }
 
-    to {
-        opacity: 0;
-    }
-}
 
 .bgColorImage {
     background-color: #c7c7c77b;
@@ -281,6 +273,12 @@ section .container {
     text-decoration: none;
 }
 
+/* PORTFOLIO */
+#happyCulture{
+    width: 70vw;
+    height: 70vh;
+}
+
 /* MEDIA QUERRIES */
 @media all and (max-width:500px) {
     #CV>div>img {
@@ -344,3 +342,12 @@ section .container {
     }
 }
 
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
