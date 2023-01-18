@@ -175,6 +175,11 @@ main {
 }
 
 /* experience */
+.blackOpaque{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem ;
+}
 .imgSize2 {
     width: 6.6vh;
 }
@@ -275,7 +280,7 @@ section .container {
 
 /* PORTFOLIO */
 #happyCulture, #tatooManuk{
-    width: 70vw;
+    width: 80vw;
     height: 70vh;
 }
 
@@ -340,8 +345,13 @@ section .container {
     #divimgBtnPrincipal>img {
         height: 20%;
     }
-}
+    .blackOpaque{
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
+}
 @keyframes fadeout {
     from {
         opacity: 1;
