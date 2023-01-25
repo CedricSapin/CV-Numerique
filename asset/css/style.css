@@ -279,11 +279,10 @@ section .container {
 }
 
 /* PORTFOLIO */
-#happyCulture, #tatooManuk{
+#happyCulture,#bestGamer,#docteur{
     width: 80vw;
     height: 70vh;
 }
-
 /* MEDIA QUERRIES */
 @media all and (max-width:500px) {
     #CV>div>img {
