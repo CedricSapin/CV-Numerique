@@ -87,6 +87,6 @@ imgRotateOne.addEventListener('click', function () {
     setTimeout(() => { iconeCss.style.display = 'none' }, 3500);
     setTimeout(() => { iconeHtml.classList.add('disableIcone') }, 3500);
     setTimeout(() => { iconeHtml.style.display = 'none' }, 4000);
-    setTimeout(() => { wheel.style.display = "block"}, 4000);
+    setTimeout(() => { wheel.style.display = "block" }, 4000);
   }
 });
